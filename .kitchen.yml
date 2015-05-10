@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: centos-6.4
+
+suites:
+  - name: oracle-inventory-basic
+    run_list:
+      - recipe[inventory_test]
+  - name: oracle-inventory-override
+    run_list:
+      - recipe[inventory_override_test]
