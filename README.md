@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/universityofderby/chef-oracle-inventory.png?label=ready&title=Ready)](https://waffle.io/universityofderby/chef-oracle-inventory)
 # Oracle Inventory Cookbook
 This cookbook installs the oraInst.loc file into a specified location
 
